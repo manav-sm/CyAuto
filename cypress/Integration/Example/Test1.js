@@ -38,7 +38,7 @@ it("test cases",function()
     cy.get('#country').type("india")
     cy.get('.suggestions > ul > li > a').click()
     cy.get('#checkbox2').click({force: true})
-    cy.get('input[value="Purchase1"]').click()
+    cy.get('input[value="Purchase"]').click()
     cy.get('.alert').then(function(element){
         expect(element.text().includes("Success")).to.be.true
     })
