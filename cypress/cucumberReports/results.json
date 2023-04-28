@@ -1,0 +1,76 @@
+[
+  {
+    "description": "    E2E Testign",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecomm-e2e-testign;ecommerce-delivery",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecommerce Delivery",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the User navigate to Website",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the User adds items in the cart",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the use validate the total price",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user enters coutry name and verify the message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5506000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecomm-e2e-testign",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "EComm E2E Testign",
+    "tags": [],
+    "uri": "cypress/Integration/Example/BDD/eComm.feature"
+  }
+]

@@ -8,12 +8,22 @@
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --browser chrome",
     "recoedDashBoardTest": "npm run test -- --record --key 270e4752-7bd6-46c4-9170-0b2577f727b3 --reporter mocha"
-    
-
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/results.json"
+    }
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^12.10.0",
+    "mocha": "^10.1.0",
+    "multiple-cucumber-html-reporter": "^3.3.0"
+  },
   "dependencies": {
-    "cypress": "^12.10.0"
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3"
   }
 }
